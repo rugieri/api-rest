@@ -4,7 +4,7 @@ exports.post = (req, res, next) => {
 
 exports.put = (req, res, next) => {
     let id = req.params.id;
-    res.status(201).send(`PUT route  ID ! --> ${id}`;)
+    res.status(201).send(`PUT route  ID ! --> ${id}`);
 };
 
 exports.delete = (req, res, next) => {
